@@ -56,7 +56,7 @@ Train the RBM using the MNIST dataset. The training loop performs contrastive di
 The results include:
 - Learned Features: Displayed as images of the weights of the hidden units.
 - Original vs Reconstructed Data: Comparisons of original input images and their reconstructions.
-- Reconstruction Error: Plot showing the error over training epochs.
+- Reconstruction Error: Plot showing the error and the Internal Energy over training epochs.
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
