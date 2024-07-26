@@ -1,7 +1,9 @@
 # Restricted Boltzmann Machine (RBM) with Mean Field Theory
 This repository contains an implementation of a Restricted Boltzmann Machine (RBM) using TensorFlow, applied to the MNIST dataset. The implementation integrates Mean Field Theory into the contrastive divergence learning process to improve training efficiency and accuracy. The development of this repository is based in this [work](https://github.com/PoppinElo/meanFieldRBM/blob/master/topicos2_BM.pdf).
 
-Author: Kevin Juan Román Rafaele
+- Name: Kevin Juan Román Rafaele
+- LinkedIn: https://www.linkedin.com/in/kevin-juan-r-997530117/
+- Email: mrredsky.2095@gmail.com
 
 ## Table of Contents
 1. Introduction
