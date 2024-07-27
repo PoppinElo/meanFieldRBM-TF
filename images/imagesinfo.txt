@@ -1,0 +1,1 @@
+This folder contains plots of learned features and results from the RBM model
