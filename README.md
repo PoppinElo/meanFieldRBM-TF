@@ -50,6 +50,7 @@ pip install tensorflow numpy matplotlib
 ## Usage
 ### Data Preprocessing
 Load and preprocess the MNIST dataset by normalizing pixel values and reshaping images into vectors.
+![MNIST handwritten numbers](https://github.com/PoppinElo/meanFieldRBM-TF/blob/main/images/mnist.png)
 
 ### Model Training
 Train the RBM using the MNIST dataset. The training loop performs contrastive divergence with Mean Field Theory and tracks reconstruction error to monitor learning progress.
@@ -57,8 +58,14 @@ Train the RBM using the MNIST dataset. The training loop performs contrastive di
 ### Results
 The results include:
 - Learned Features: Displayed as images of the weights of the hidden units.
+  ![Learned Features](https://github.com/PoppinElo/meanFieldRBM-TF/blob/main/images/learned_features.png)
+  
 - Original vs Reconstructed Data: Comparisons of original input images and their reconstructions.
-- Reconstruction Error: Plot showing the error and the Internal Energy over training epochs.
+  ![Original vs Reconstructed Images](https://github.com/PoppinElo/meanFieldRBM-TF/blob/main/images/original_vs_reconstructed.png)
+  
+- Error evolution: Plot showing the error and the Internal Energy over training epochs.
+  ![Reconstructed Error](https://github.com/PoppinElo/meanFieldRBM-TF/blob/main/images/recons_error.png)
+  ![Internal Energy](https://github.com/PoppinElo/meanFieldRBM-TF/blob/main/images/internal_energy.png)
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
